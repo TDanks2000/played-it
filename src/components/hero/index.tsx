@@ -29,15 +29,13 @@ const Hero = async () => {
       {/* Hero Text */}
       <div className="relative mt-24 flex w-fit flex-col items-center justify-center gap-7">
         <div className="flex flex-col items-center justify-center gap-2">
-          <HeroText className="gao-0 flex h-[31px] flex-row overflow-hidden font-semibold text-white">
-            Track your favorite Games
-          </HeroText>
+          <HeroText>Track your favorite Games</HeroText>
           <HeroText>Discover what to Play next.</HeroText>
           <HeroText>Share your ratings with friends.</HeroText>
         </div>
         {/* Sign up button */}
         <Button size={"lg"} className="text-lg">
-          Start tracking now
+          Start Playing IT now
         </Button>
       </div>
     </div>

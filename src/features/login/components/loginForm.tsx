@@ -18,11 +18,11 @@ const LoginForm = () => {
           </div>
           <div className="grid gap-4">
             <div className="grid gap-2">
-              <Label htmlFor="email">Email</Label>
+              <Label htmlFor="email">Email/Username</Label>
               <Input
                 id="email"
                 type="email"
-                placeholder="m@example.com"
+                placeholder="piratePrincess@example.com or whiterabbit"
                 required
               />
             </div>
@@ -47,7 +47,7 @@ const LoginForm = () => {
           </div>
           <div className="mt-4 text-center text-sm">
             Don&apos;t have an account?{" "}
-            <Link href="#" className="underline">
+            <Link href="/signup" className="underline">
               Sign up
             </Link>
           </div>
@@ -55,11 +55,11 @@ const LoginForm = () => {
       </div>
       <div className="hidden bg-muted lg:block">
         <Image
-          src="https://ui.shadcn.com/placeholder.svg"
+          src="https://wallpapercave.com/wp/wp12164096.jpg"
           alt="Image"
-          width="1920"
-          height="1080"
-          className="h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
+          width="960"
+          height="540"
+          className="h-full w-full object-cover object-top dark:brightness-[0.2] dark:grayscale"
         />
       </div>
     </div>
