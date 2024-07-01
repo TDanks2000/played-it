@@ -1,5 +1,5 @@
 import { type DefaultCardProps } from "@/@types/shared/props";
-import IGDBImage from "@/app/igdbImage";
+import IGDBImage from "@/components/igdbImage";
 import { Card, CardContent } from "@/components/ui/card";
 import { type FC } from "react";
 
