@@ -17,13 +17,13 @@ const NavBar = () => {
         </Link>
         <Link
           href="/"
-          className="text-foreground transition-colors hover:text-foreground"
+          className="text-muted-foreground transition-colors hover:text-foreground active:text-foreground"
         >
           Home
         </Link>
         <Link
           href="/games"
-          className="text-muted-foreground transition-colors hover:text-foreground"
+          className="text-muted-foreground transition-colors hover:text-foreground active:text-foreground"
         >
           Games
         </Link>
